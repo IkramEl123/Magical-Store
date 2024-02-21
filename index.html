@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Document</title>
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif
+}
+.background-clip{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+a, a:hover{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block; /*ktkhlih horizentale */
+    margin-right: 30px;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.header{
+    width: 100%;
+    background-color: transparent;
+}
+.header .nav-bar{
+    width: 90%;
+    height: 80px;
+    line-height: 80px;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #fff;
+}
+.header .nav-bar .logo{
+    z-index: 2;
+}
+.header .nav-bar .logo a{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.header .nav-bar .menu{
+    z-index: 2;
+}
+.header .nav-bar .logo ul li{
+    margin-right: 30px;
+
+}
+.header .nav-bar .menu ul li a{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    transition: all 0.5s;
+    opacity: 0.8;
+    color: #fff;
+}
+.header .nav-bar .menu ul li a.active{
+    opacity: 1;
+    background-color: #fff;
+    color: #000;
+
+}
+.header .nav-bar .menu ul li a:hover{
+    opacity: 1;
+    background-color: #fff;
+    color: #000;
+}
+.header .nav-bar .social-media{
+    z-index: 2;
+}
+section .hero-sec{
+    width: 100%; 
+}
+section .hero-sec .caption{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+    margin-top: 20%;
+}
+/* .back-v{
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 0 0 0 0;
+        padding-left: 1%;
+        padding-right: 1%;
+        background-position: center;
+        margin-bottom: 100%;
+    } */
+ /* .header .nav-bar .social-media ul li i{ 
+   width: 45px;
+   height: 45px;
+   line-height: 45px;
+   margin-right: 5px;
+   text-align: center;
+   align-items: center;
+   font-size: 19px;
+   border-radius: 5px; 
+   background-color: #cac5c542;
+   box-shadow: 0 0 25px rgba(24, 24, 24, 4);
+   transition: all 0.3s;
+}  */
+
+
+</style>
+<body>
+    <section>
+        <video autoplay loop muted plays-inline class="background-clip" >
+            <source src="Y-3 _ Spring Summer 2018 Full Fashion Show _ Exclusive.mp4" type="video/mp4">
+        </video>
+    <header class="header">
+        <div class="nav-bar">
+            <div class="logo">
+                <a href="index.html">Magical Store</a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="site.html">Women</a></li>
+                    <li><a href="productsman.html">Man</a></li>
+                    <li><a href="Productskids.html">Kids</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+              <!-- <div class="social-media"> 
+                <ul>
+                   <li><a href=""><i class="fa-brands fa-facebook"></i></a></li> 
+                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>   -->
+        </div>
+    </header>
+    <!-- <div class="hero-sec">
+        <div class="overlay">
+            <div class="caption">
+                <h3>NOUVELLE SAISON,<br>NOUVEAU STYLE</h3> 
+                <p class="description">
+                    Notre nouvelle collection vient de sortir.
+                    Exprime ton style avec les meilleurs looks de la saison.
+               </p>
+            </div>
+        </div>
+     -->
+    </div>
+</section>
+</body>
+</html>
